@@ -6,41 +6,47 @@
     <title>EcoFarm</title>
 
     <style>
+        body {
+            background-image: url("imagem ecofarm.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
         h1 {
-            font-family: 'Fredoka', sans-serif;
+            font-family: Arial, sans-serif;
             font-size: 50px;
             color: white;
         }
 
         summary {
-            font-family: 'Fredoka', sans-serif;
+            font-family: Arial, sans-serif;
             font-size: 35px;
             color: white;
-        }
-
-        body {
-            background-image: url("imagem ecofarm.png");
-            background-size: cover;
-            background-repeat: no-repeat;
+            cursor: pointer;
         }
 
         details {
-            color: white;
             text-align: center;
+            margin-bottom: 20px;
         }
 
         details p {
-            background-color: rgba(21, 92, 0, 0.5);
+            background-color: rgba(21, 92, 0, 0.7);
             color: white;
             padding: 15px;
             border-radius: 10px;
             width: 700px;
-            text-align: justify;
             margin: auto;
         }
 
         h2 {
             color: white;
+        }
+
+        .foto {
+            border-radius: 10px;
+            margin: 10px;
         }
     </style>
 </head>
@@ -51,11 +57,11 @@
         <img src="logoo.png" width="600">
     </p>
 
-    <br>
-
     <h1 align="center" style="background-color:#37a029;">
         Seja bem-vindo(a)
     </h1>
+
+    <br>
 
     <details>
         <summary>Sobre o jogo</summary>
@@ -69,80 +75,90 @@
         </h2>
     </details>
 
-    <br>
-
     <details>
         <summary>Desenvolvedores do projeto</summary>
 
-        <div style="display:flex; justify-content:center;">
-            <h2>
-                <p style="text-align:center;">
+        <h2>
+            <p style="text-align:center;">
 
-                    Eduarda Cristina - Programadora
-                    <br><br>
+                Eduarda Cristina - Programadora
+                
+                <img src="eduarda.png" width="150" class="foto">
 
-                    Helena Fernandes - Programadora
-                    <br>
-                    <img src="helena.png" width="150" style="border-radius:10px;">
-                    <br><br>
+                <br><br>
 
-                    Julia Andrade - Apresentadora/Design
-                    <br>
-                    <img src="julia.png" width="150" style="border-radius:10px;">
-                    <br><br>
+                Helena Fernandes - Programadora
 
-                    Pamela Valentim - Apresentadora/Design
-                    <br>
-                    <img src="panela.png" width="150" style="border-radius:10px;">
-                    <br><br>
+                <br>
 
-                    Vitor Henrique - Apresentador
-                    <br>
+                <img src="helena.png" width="150" class="foto">
 
-                    Rafael de Paula - Apresentador
+                <br><br>
 
-                </p>
-            </h2>
-        </div>
+                Julia Andrade - Apresentadora/Design
+
+                <br>
+
+                <img src="julia.png" width="150" class="foto">
+
+                <br><br>
+
+                Pamela Valentim - Apresentadora/Design
+
+                <br>
+
+                <img src="pamela.png" width="150" class="foto">
+
+                <br><br>
+
+                Vitor Henrique - Apresentador
+
+                <br><br>
+
+                Rafael de Paula - Apresentador
+
+            </p>
+        </h2>
     </details>
-
-    <br>
 
     <details>
         <summary>Ferramentas utilizadas</summary>
 
         <h2>
             <p>
-                HTML, CSS (nesse site) <br>
+                HTML e CSS (site)<br>
                 Java (jogo)
             </p>
         </h2>
     </details>
-
-    <br>
 
     <details>
         <summary>Como jogar?</summary>
 
         <h2>
             <p>
-                Em EcoFarm, o jogador deve administrar uma fazenda sustentável e reduzir a poluição do ambiente. <br>
-                Durante o jogo, é possível plantar culturas, cuidar dos animais, limpar áreas contaminadas e expandir a fazenda utilizando moedas e energia. <br>
-                A cada ação realizada, os recursos da fazenda mudam, sendo necessário equilibrar economia e sustentabilidade. Ao passar os dias, a fazenda gera lucro automaticamente através das plantas e animais. <br>
-                O objetivo principal é diminuir a poluição, acumular moedas e transformar a fazenda em um lugar saudável e ecológico antes que a poluição atinja o nível máximo.
+                Em EcoFarm, o jogador deve administrar uma fazenda sustentável e reduzir a poluição do ambiente.<br><br>
+
+                Durante o jogo, é possível plantar culturas, cuidar dos animais, limpar áreas contaminadas e expandir a fazenda utilizando moedas e energia.<br><br>
+
+                A cada ação realizada, os recursos da fazenda mudam, sendo necessário equilibrar economia e sustentabilidade.<br><br>
+
+                Ao passar dos dias, a fazenda gera lucro através das plantas e dos animais.<br><br>
+
+                O objetivo principal é diminuir a poluição, acumular moedas e transformar a fazenda em um lugar saudável e ecológico.
             </p>
         </h2>
     </details>
-
-    <br>
 
     <details>
         <summary>A ODS 13</summary>
 
         <h2>
             <p>
-                A ODS 13 faz parte dos Objetivos de Desenvolvimento Sustentável da ONU e tem como foco combater as mudanças climáticas e seus impactos no planeta.
-                Seu principal objetivo é incentivar ações sustentáveis, como a redução da poluição, preservação da natureza, uso consciente dos recursos naturais e diminuição do aquecimento global.
+                A ODS 13 faz parte dos Objetivos de Desenvolvimento Sustentável da ONU e tem como foco combater as mudanças climáticas e seus impactos no planeta.<br><br>
+
+                Seu principal objetivo é incentivar ações sustentáveis, como a redução da poluição, preservação da natureza, uso consciente dos recursos naturais e diminuição do aquecimento global.<br><br>
+
                 A ODS 13 busca conscientizar as pessoas sobre a importância de proteger o meio ambiente para garantir um futuro mais seguro e saudável para todos.
             </p>
         </h2>
@@ -151,4 +167,3 @@
 </body>
 
 </html>
-
